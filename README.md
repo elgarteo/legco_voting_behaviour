@@ -1,4 +1,4 @@
-# legco_voting_behaviour
+# LegCo Members' Voting Behaviour Analysis
 Network analysis on the voting behaviour of members of the Hong Kong Legislative Council
 
 ## What it does
@@ -16,7 +16,8 @@ between different lawmakers and export as *vote_table5.rds* and *vote_table6.rds
 After collecting all votes casted by every member in the Fifth and Sixth LegCo meetings, a corelation matrix
 containing the similarity of the voting behaviour between every member is generated for each term, which can 
 then be used to plot weighted network graphs with each node representing a lawmaker and the correlation
-coefficient indicating the colour depth of each edge.
+coefficient indicating the colour depth of each edge. this can provide a glimpse of the level of agreement
+between lawmakers across different political parties and camps.
 
 Members who quitted early or entered late as lawmakers or have casted less than 50% of valid votes (i.e. yes
 or no only, not abstaining or absent) overall are excluded from the analysis. A number of motions submitted
