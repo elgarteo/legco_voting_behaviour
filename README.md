@@ -19,7 +19,7 @@ then be used to plot weighted network graphs with each node representing a lawma
 coefficient indicating the colour depth of each edge. this can provide a glimpse of the level of agreement
 between lawmakers across different political parties and camps.
 
-Members who quitted early or entered late as lawmakers or have casted less than 50% of valid votes (i.e. yes
+Members who quitted early or joined late as lawmakers or have casted less than 50% of valid votes (i.e. yes
 or no only, not abstaining or absent) overall are excluded from the analysis. A number of motions submitted
 for the sole purpose of filibustering are also removed, e.g. member's amendment bills on the Approporiation Bill 
 in 2013-16.
