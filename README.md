@@ -13,10 +13,10 @@ between different lawmakers and export as *vote_table5.rds* and *vote_table6.rds
 * **pro_est5.rds** & **pro_est6.rds**: Lists of pro-establishment lawmakers in the Fifth and Sixth LegCo
 
 ## How it works
-After collecting all votes casted by every member in the Fifth and Sixth LegCo meetings, a corelation matrix
+After collecting all votes casted by every member in the Fifth and Sixth LegCo meetings, a correlation matrix
 containing the similarity of the voting behaviour between every member is generated for each term, which can 
 then be used to plot weighted network graphs with each node representing a lawmaker and the correlation
-coefficient indicating the colour depth of each edge. this can provide a glimpse of the level of agreement
+coefficient indicating the colour depth of each edge. This can provide a glimpse of the level of agreement
 between lawmakers across different political parties and camps.
 
 Members who quitted early or joined late as lawmakers or have casted less than 50% of valid votes (i.e. yes
