@@ -16,9 +16,9 @@ parties5[is.na(parties5)] <- "Independent"
 name_list5 <- sapply(colnames(corm5), function(x) 
   legco_member_affiliation[["4"]] %$% NameEng[SpeakerID == x])
 
-colours5 <- c("0033FF", "FF0000", "00CC00", "FF9900", "33FF00", "99FFCC", "C0C0C0",
+colours5 <- c("FF33FF", "0033FF", "FF0000", "00CC00", "33FF00", "99FFCC", "C0C0C0",
               "00FFFF", "6699FF", "FFCC00", "66FF00", "99FFFF", "FFFFCC", "CC9900",
-              "33CCCC", "FF33FF", "CC3333", "FFFF00", "99FF00") %>% paste0("#", .)
+              "33CCCC", "CC3333", "FFFF00", "99FF00") %>% paste0("#", .)
 # plot
 png("5th_all.png", width = 18, height = 12, units = "in", res = 600)
 qgraph(corm5, layout = "spring", groups = parties5,
@@ -41,8 +41,8 @@ parties5[is.na(parties5)] <- "Independent"
 name_list5 <- sapply(colnames(corm5_pro_est), function(x) 
   legco_member_affiliation[["4"]] %$% NameEng[SpeakerID == x])
 
-colours5 <- c("FF0000", "FF9900", "C0C0C0", "FFCC00", "FFFFCC", "CC9900",
-              "FF33FF", "CC3333", "FFFF00", "99FF00") %>% paste0("#", .)
+colours5 <- c("FF33FF", "FF0000", "C0C0C0", "FFCC00", "FFFFCC", "CC9900",
+              "CC3333", "FFFF00", "99FF00") %>% paste0("#", .)
 # plot
 png("5th_pro_est.png", width = 18, height = 12, units = "in", res = 600)
 qgraph(corm5_pro_est, layout = "spring", groups = parties5,
