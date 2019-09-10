@@ -8,8 +8,10 @@ record of the Fifth LegCo (2012-16) and the Sixth LegCo (2016-19) up until May 2
 ## What they are
 * **preprocessing.R:** Scripts to fetch the voting record using the LegCo API, compute the similarity 
 between different lawmakers and export as *vote_table5.rds* and *vote_table6.rds*
-* **network.R:** Scripts to plot network graphs as *5th_all.png*, *5th_pro_est.png*, *5th_non_pro_est.png*, 
-*6th_all.png*, *6th_pro_est.png* and *6th_non_pro_est.png*, 
+* **network.R:** Scripts to plot network graphs in English and Chinese as *5th_all_en.png*,
+*5th_all_zh.png*, *5th_pro_est_en.png*, *5th_pro_est_zh.png*, *5th_non_pro_est_en.png*, 
+*5th_non_pro_est_zh.png*, *6th_all_en.png*, *6th_all_zh.png*, *6th_pro_est_en.png*,
+*6th_pro_est_zh.png*, *6th_non_pro_est_en.png* and *6th_non_pro_est_zh.png*
 * **pro_est5.rds** & **pro_est6.rds**: Lists of pro-establishment lawmakers in the Fifth and Sixth LegCo
 
 ## How it works
